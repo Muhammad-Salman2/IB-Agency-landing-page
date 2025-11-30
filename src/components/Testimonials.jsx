@@ -128,7 +128,9 @@ const Testimonials = () => {
             {testimonials.map((testimonial) => (
               <div key={testimonial.id} className="testimonial-card">
                 <div className="testimonial-header">
-                  <div className="client-avatar">{testimonial.image}</div>
+                  <div className="client-avatar">
+                    <img src={testimonial.image} alt={testimonial.name} />
+                  </div>
                   <div className="client-info">
                     <h4 className="client-name">{testimonial.name}</h4>
                     <p className="client-role">{testimonial.role}</p>

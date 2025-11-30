@@ -5,6 +5,7 @@ import Services from './components/Services'
 import SimpleSolutions from './components/SimpleSolutions'
 import OurAgency from './components/OurAgency'
 import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <SimpleSolutions />
       <OurAgency />
       <Testimonials />
+      <Footer />
     </>
   )
 }

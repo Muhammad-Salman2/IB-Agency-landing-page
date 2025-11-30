@@ -28,13 +28,13 @@ const Hero = () => {
             <span className="bubble yellow small" style={{top: '220px', left: '-50px'}}></span>
           </div>
           
-          <div className="hero-text">
-            <h1 className="hero-title">
-              We create <span className="highlight">solutions</span> for your business
-            </h1>
-            <p className="hero-description">
-              Our team serves a team that are emerging brands and technologies to extend your marketing and business goals. We aim to identify your digital marketing problems.
-            </p>
+          <h1 className="hero-title">
+            We create <span className="highlight">solutions</span> for your business
+          </h1>
+          <p className="hero-description">
+            Our team serves a team that are emerging brands and technologies to extend your marketing and business goals. We aim to identify your digital marketing problems.
+          </p>
+          <div className="hero-actions">
             <button className="cta-button">Get Started</button>
             <div className="explore-link">
               <span className="arrow-icon">→</span>

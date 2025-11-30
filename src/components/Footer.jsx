@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
+import logo from '../assets/IB_Creative-removebg-preview.png';
 
 const Footer = () => {
   return (
@@ -26,8 +27,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="footer-brand">
             <div className="footer-logo">
-              <span className="logo-icon">🧡</span>
-              <span className="logo-text">BrandBeat</span>
+              <img src={logo} alt="IB Creatives" className="logo-image" />
             </div>
             <div className="social-links">
               <a href="#" className="social-icon facebook">

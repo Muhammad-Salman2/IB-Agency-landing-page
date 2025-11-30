@@ -126,8 +126,8 @@
 }
 
 .cta-button {
-  background-color: #FF6B35;
   color: white;
+  background-color: #FF6B35;
   border: none;
   padding: 1rem 2.5rem;
   border-radius: 8px;
@@ -138,13 +138,11 @@
   box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
 }
 
-
-
-/* .cta-button:hover {
+.cta-button:hover {
   background-color: #e55a2b;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
-} */
+}
 
 .explore-link {
   display: inline-flex;
@@ -199,9 +197,12 @@
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-15px);
   }

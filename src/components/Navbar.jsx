@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import logo from '../assets/IB_Creative-removebg-preview.png';
 
 const Navbar = () => {
   return (
@@ -7,8 +8,7 @@ const Navbar = () => {
       <div className="navbar-container">
         {/* Logo */}
         <div className="navbar-logo">
-          <div className="logo-icon">🧡</div>
-          <span className="logo-text">BrandBeat</span>
+          <img src={logo} alt="IB Creatives" className="logo-image" />
         </div>
 
         {/* Navigation Links */}

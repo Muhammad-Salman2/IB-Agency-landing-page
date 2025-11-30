@@ -32,6 +32,15 @@ const SimpleSolutions = () => {
 
   return (
     <section className="simple-solutions">
+      {/* Decorative bubbles */}
+      <div className="bubbles-bottom-right">
+        <span className="bubble orange medium" style={{bottom: '50px', right: '5%'}}></span>
+        <span className="bubble peach small" style={{bottom: '70px', right: '9%'}}></span>
+        <span className="bubble yellow large" style={{bottom: '35px', right: '10%'}}></span>
+        <span className="bubble orange tiny" style={{bottom: '85px', right: '7%'}}></span>
+        <span className="bubble peach medium" style={{bottom: '100px', right: '4%'}}></span>
+      </div>
+
       <div className="simple-container">
         {/* Left Side - Image */}
         <div className="simple-image">

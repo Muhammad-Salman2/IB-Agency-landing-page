@@ -1,14 +1,13 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <div className="app-content">
-        {/* Your page content goes here */}
-      </div>
+      <Hero />
     </>
   )
 }

@@ -216,11 +216,54 @@
 
 @media screen and (max-width: 768px) {
   .simple-solutions {
-    padding: 3rem 1rem;
+    padding: 3rem 1.5rem;
+  }
+
+  .simple-container {
+    gap: 2.5rem;
   }
 
   .simple-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .simple-subtitle {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .solution-item {
+    margin-bottom: 1.2rem;
+  }
+
+  .solution-number {
+    width: 40px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  .solution-title {
+    font-size: 1rem;
+  }
+
+  .solution-description {
+    font-size: 0.85rem;
+  }
+
+  .simple-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    text-align: center;
+  }
+
+  .simple-image img {
+    max-width: 90%;
   }
 
   .simple-subtitle {
@@ -254,5 +297,39 @@
   .btn-secondary {
     width: 100%;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .simple-solutions {
+    padding: 2.5rem 1rem;
+  }
+
+  .simple-title {
+    font-size: 1.7rem;
+  }
+
+  .simple-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .solution-number {
+    width: 35px;
+    height: 35px;
+    font-size: 0.8rem;
+  }
+
+  .solution-title {
+    font-size: 0.95rem;
+  }
+
+  .solution-description {
+    font-size: 0.8rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
   }
 }

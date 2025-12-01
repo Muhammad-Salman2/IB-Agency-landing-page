@@ -126,9 +126,27 @@
 }
 
 /* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 0.7rem 1.5rem;
+  }
+
+  .nav-menu {
+    gap: 1.5rem;
+  }
+
+  .logo-image {
+    height: 55px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
-    padding: 1rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .logo-image {
+    height: 50px;
   }
 
   .nav-menu {
@@ -136,8 +154,27 @@
   }
 
   .signup-btn {
-    padding: 0.5rem 1.25rem;
-    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+  }
+
+  .navbar-container {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .logo-image {
+    height: 45px;
+  }
+
+  .signup-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
   }
 }
 

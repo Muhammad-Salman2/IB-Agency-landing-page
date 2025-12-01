@@ -179,7 +179,7 @@
 
 @media screen and (max-width: 768px) {
   .testimonials {
-    padding: 3rem 1rem;
+    padding: 3rem 1.5rem;
   }
 
   .testimonials-title {
@@ -192,6 +192,7 @@
 
   .testimonial-card {
     min-width: 100%;
+    padding: 1.8rem;
   }
 
   .slider-btn {
@@ -199,8 +200,12 @@
     height: 40px;
   }
 
-  .testimonial-card {
-    padding: 1.5rem;
+  .slider-btn.prev {
+    left: 10px;
+  }
+
+  .slider-btn.next {
+    right: 10px;
   }
 
   .client-avatar {
@@ -215,16 +220,45 @@
 
   .testimonial-review {
     font-size: 0.9rem;
+    line-height: 1.7;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .testimonials-slider {
-    flex-direction: column;
-    gap: 1.5rem;
+  .testimonials {
+    padding: 2.5rem 1rem;
+  }
+
+  .testimonials-title {
+    font-size: 1.7rem;
+  }
+
+  .testimonials-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .testimonial-card {
+    padding: 1.5rem;
+  }
+
+  .testimonial-review {
+    font-size: 0.85rem;
+  }
+
+  .client-name {
+    font-size: 0.95rem;
   }
 
   .slider-btn {
-    position: relative;
+    width: 35px;
+    height: 35px;
+  }
+
+  .slider-btn.prev {
+    left: 5px;
+  }
+
+  .slider-btn.next {
+    right: 5px;
   }
 }

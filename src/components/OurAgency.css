@@ -149,11 +149,33 @@
 
 @media screen and (max-width: 768px) {
   .our-agency {
-    padding: 3rem 1rem;
+    padding: 3rem 1.5rem;
+  }
+
+  .agency-container {
+    gap: 2.5rem;
   }
 
   .agency-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .agency-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .agency-description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .agency-btn {
+    width: 100%;
+  }
+
+  .agency-image img {
+    max-width: 90%;
   }
 
   .agency-description {
@@ -163,5 +185,28 @@
   .btn-read-more {
     width: 100%;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .our-agency {
+    padding: 2.5rem 1rem;
+  }
+
+  .agency-title {
+    font-size: 1.7rem;
+  }
+
+  .agency-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .agency-description {
+    font-size: 0.85rem;
+  }
+
+  .agency-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
   }
 }

@@ -104,18 +104,22 @@
   color: #2d2d2d;
   line-height: 1.2;
   margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
 }
 
 .highlight {
   color: #FF6B35;
+  position: relative;
+  display: inline-block;
 }
 
 .hero-description {
   font-size: 1.1rem;
   color: #666;
-  line-height: 1.7;
+  line-height: 1.8;
   margin-bottom: 2rem;
-  max-width: 500px;
+  max-width: 520px;
+  letter-spacing: 0.2px;
 }
 
 .hero-actions {

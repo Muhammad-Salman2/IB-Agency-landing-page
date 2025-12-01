@@ -89,8 +89,8 @@
 }
 
 .testimonial-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 35px rgba(255, 107, 53, 0.12);
 }
 
 /* Testimonial Header */

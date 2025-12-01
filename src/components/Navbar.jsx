@@ -2,9 +2,9 @@ import React from 'react';
 import './Navbar.css';
 import logo from '../assets/IB_Creative-removebg-preview.png';
 
-const Navbar = () => {
+const Navbar = ({ isFixed }) => {
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${isFixed ? 'navbar-fixed' : ''}`}>
       <div className="navbar-container">
         {/* Logo */}
         <div className="navbar-logo">

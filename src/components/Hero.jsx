@@ -35,7 +35,7 @@ const Hero = () => {
             Our team serves a team that are emerging brands and technologies to extend your marketing and business goals. We aim to identify your digital marketing problems.
           </p>
           <div className="hero-actions">
-            <button className="cta-button">Get Started</button>
+           <button className="hero-cta-button">Get Started</button>
             <div className="explore-link">
               <span className="arrow-icon">→</span>
               <span className="explore-text">Explore more</span>

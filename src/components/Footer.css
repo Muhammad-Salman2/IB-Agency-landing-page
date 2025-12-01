@@ -36,7 +36,7 @@
   white-space: nowrap;
 }
 
-.cta-button {
+.footer-cta-button {
   background-color: transparent;
   color: white;
   border: 2px solid white;
@@ -49,7 +49,7 @@
   flex-shrink: 0;
 }
 
-.cta-button:hover {
+.footer-cta-button:hover {
   background-color: white;
   color: #FF6B35;
   transform: translateY(-2px);
@@ -237,7 +237,7 @@
     font-size: 1.5rem;
   }
 
-  .cta-button {
+   .footer-cta-button {
     width: 100%;
     padding: 0.9rem 2rem;
   }

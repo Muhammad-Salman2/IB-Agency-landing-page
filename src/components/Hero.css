@@ -125,9 +125,9 @@
   gap: 0.5rem;
 }
 
-.cta-button {
-  color: white;
+.hero-cta-button {
   background-color: #FF6B35;
+  color: white;
   border: none;
   padding: 1rem 2.5rem;
   border-radius: 8px;
@@ -138,7 +138,7 @@
   box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
 }
 
-.cta-button:hover {
+.hero-cta-button:hover {
   background-color: #e55a2b;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
@@ -237,7 +237,7 @@
     font-size: 1rem;
   }
 
-  .cta-button {
+  .hero-cta-button {
     padding: 0.8rem 2rem;
     font-size: 1rem;
   }

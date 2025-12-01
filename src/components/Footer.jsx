@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-cta">
         <div className="cta-content">
           <h2 className="cta-title">Ready to get started?</h2>
-          <button className="cta-button">Contact Us</button>
+         <button className="footer-cta-button">Contact Us</button>
         </div>
       </div>
 
